@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf node_modules .git .parcel-cache dist .DS_Store",
-    "static":"cp -rf ./src/static   .dist",
+    "static": "cp -rf ./src/static   .dist",
     "start": "npx parcel src/index.html "
   },
   "keywords": [],
@@ -13,9 +13,10 @@
   "license": "ISC",
   "dependencies": {
     "base-64": "^1.0.0",
-    "firebase": "^9.6.3",
+    "firebase": "^9.6.4",
     "nanoid": "^3.2.0",
-    "parcel": "^2.2.1"
+    "parcel": "^2.2.1",
+    "sass": "^1.49.0"
   },
   "devDependencies": {
     "@parcel/packager-raw-url": "^2.2.1",
